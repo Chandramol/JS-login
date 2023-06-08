@@ -1,0 +1,57 @@
+.container{
+    background-color: rgb(245, 255, 233);
+    height: 600px;
+    border-radius: 20px;
+    margin-top: 20px;
+    padding-top: 10px;
+}
+.container h1{
+    text-decoration:dotted underline;
+}
+/* signUp */
+.signForm{
+    background-color: rgb(194, 247, 230);
+    width:500px;
+    border-radius: 20px;
+    padding: 10px;
+    position: relative;
+}
+#signupClose{
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+    position: absolute;
+    top: 0;
+    right: 0;
+    display: flex;
+    justify-content: center;
+}
+/* Log In */
+.loginForm{
+    background-color: rgb(216, 216, 255);
+    width:500px;
+    border-radius: 20px;
+    padding: 10px;
+    display: none;
+    position: relative;
+}
+#loginClose{
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+    position: absolute;
+    top: 0;
+    right: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+input{
+    border-radius: 10px;
+    font-size: 18px;
+    padding: 5px;
+    border: none;
+}
+#userDes,#passDesc{
+    display: none;
+}
